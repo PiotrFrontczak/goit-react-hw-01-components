@@ -18,26 +18,26 @@ export default class Profile extends Component {
 
   render() {
     return (
-      <div class="profile">
-        <div class="description">
-          <img src={this.props.avatar} alt="User avatar" class="avatar" />
-          <p class="name">{this.props.username}</p>
-          <p class="tag">{this.props.tag}</p>
-          <p class="location">{this.props.location}</p>
+      <div className="profile">
+        <div className="description">
+          <img src={this.props.avatar} alt="User avatar" className="avatar" />
+          <p className="name">{this.props.username}</p>
+          <p className="tag">{this.props.tag}</p>
+          <p className="location">{this.props.location}</p>
         </div>
 
-        <ul class="stats">
+        <ul className="stats">
           <li>
-            <span class="label">Followers</span>
-            <span class="quantity">{this.props.stats.followers}</span>
+            <span className="label">Followers</span>
+            <span className="quantity">{this.props.stats.followers}</span>
           </li>
           <li>
-            <span class="label">Views</span>
-            <span class="quantity">{this.props.stats.views}</span>
+            <span className="label">Views</span>
+            <span className="quantity">{this.props.stats.views}</span>
           </li>
           <li>
-            <span class="label">Likes</span>
-            <span class="quantity">{this.props.stats.likes}</span>
+            <span className="label">Likes</span>
+            <span className="quantity">{this.props.stats.likes}</span>
           </li>
         </ul>
       </div>

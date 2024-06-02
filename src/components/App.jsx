@@ -1,4 +1,5 @@
 import Profile from "./Profile";
+import user from "../data/user.json";
 
 function App() {
   return (
