@@ -1,6 +1,5 @@
 import React from 'react';
-import Statistics from "../components/Statistics";
-import { Component } from "react";
+import Statistics from "./Statistics";
 import data from "../data/data.json";
 
 const Stats = () => (

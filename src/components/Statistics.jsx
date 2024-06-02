@@ -11,7 +11,6 @@ const getRandomColor = () => {
   return color;
 };
 
-
 const Statistics = ({ title, stats }) => (
   <section className="statistics">
     {title && <h2 className="title">{title}</h2>}

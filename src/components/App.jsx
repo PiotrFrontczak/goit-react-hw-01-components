@@ -1,7 +1,6 @@
 import Profile from "./Profile";
 import user from "../data/user.json";
 import React from "react";
-import Stats from "./Stats";
 
 function App() {
   return (
