@@ -6,5 +6,6 @@ import Stats from "./components/Stats.jsx"
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
+    <Stats/>
   </React.StrictMode>,
 );
