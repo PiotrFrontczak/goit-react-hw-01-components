@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Statistics.css'; // Import the CSS file for styling
+import './Statistics.css';
 
 const getRandomColor = () => {
   const letters = '0123456789ABCDEF';
@@ -10,6 +10,7 @@ const getRandomColor = () => {
   }
   return color;
 };
+
 
 const Statistics = ({ title, stats }) => (
   <section className="statistics">
