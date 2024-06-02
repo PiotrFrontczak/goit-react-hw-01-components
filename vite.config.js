@@ -10,15 +10,12 @@ export default defineConfig({
   resolve: {
     extensions: ['.js', '.jsx']
   },
-  esbuild: {
-    loader: 'jsx',
-    include: /\.jsx$/,
-  },
   optimizeDeps: {
     esbuildOptions: {
       loader: {
-        '.js': 'jsx'
+        '.js': 'jsx',
+        '.jsx': 'jsx',
       },
     },
-  }
+  },
 });
