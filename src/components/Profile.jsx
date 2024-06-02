@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export default class Profile extends Component {
   static defaultProps = {};
 
-  static PropTypes = {
+  static propTypes = {
     username: PropTypes.string,
     tag: PropTypes.string,
     location: PropTypes.string,
