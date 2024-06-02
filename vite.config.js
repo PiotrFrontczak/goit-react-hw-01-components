@@ -19,6 +19,6 @@ export default defineConfig({
       loader: {
         '.js': 'jsx'
       },
-    }
-},
+    },
+}
 });
