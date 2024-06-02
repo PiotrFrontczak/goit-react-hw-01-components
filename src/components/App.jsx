@@ -4,7 +4,7 @@ import user from "../data/user.json";
 function App() {
   return (
     <>
-      <h1>React Homework Template (Vite)</h1>
+      
       <Profile
         username={user.username}
         tag={user.tag}
