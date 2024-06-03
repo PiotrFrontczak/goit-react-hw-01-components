@@ -13,14 +13,18 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 .item {
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding: 10px 0;
     border-radius: 5px;
+    color: white;
 }
 
 .label {
@@ -29,4 +33,21 @@
 
 .percentage {
     font-size: 18px;
+}
+
+/* Specific colors for each file type */
+.item.docx {
+    background-color: #4aa8ff;
+}
+
+.item.pdf {
+    background-color: #a34eff;
+}
+
+.item.mp3 {
+    background-color: #ff4e5d;
+}
+
+.item.psd {
+    background-color: #49c5b6;
 }

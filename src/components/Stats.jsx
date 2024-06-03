@@ -5,7 +5,6 @@ import data from "../data/data.json";
 const Stats = () => (
   <div>
     <Statistics title="Upload stats" stats={data} />
-    <Statistics stats={data} />
   </div>
 );
 
